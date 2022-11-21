@@ -4,3 +4,5 @@
 
 - Crear repositorio para mi proyecto.
 - Leer y organizarme el trabajo.
+- Crear todos los archivos, HTML, CSS, JS.
+- Descargar todas las imagenes.
