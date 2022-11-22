@@ -12,3 +12,6 @@
 22-11-2022
 
 - Empezar a diseñar archivo html.
+- Terminar el archivo HTML.
+- Añadir todas las imágenes.
+- Empezar archivo CSS.
