@@ -4,67 +4,128 @@
 /*@media screen and (max-width: 991px) {
 
 }*/
+
+/* Estilos Generales */
+
 * {
   font-family: 'roboto', 'sans-serif','Quicksand' ; 
-  box-sizing: border-box;
-  margin: 30px; 
+
 }
-/*
-.navigation {
-    padding-right: 10px;
-    padding-left: 10px;
+
+body{
+    margin:20px auto;
+    max-width: 1200px;
+    background: #f2f4fc;
+    margin: 0 auto;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Estilos Reutilizables */
+
+.btn--general{
+    background: blue;
+    color: white;
+    padding: 1rem 2rem;
+}
+.btn--general:hover{
+    background: rgba(7, 42, 200, 20);
+}
+
+
+/* Final - Estilos Reutilizables */
+
+
+/* Menu Navegacion */
+header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    float: right;
-    
+    margin-top: 4rem;
 }
 
-.container-nav {
-    max-width: 1100px;
-    margin-right: auto;
-    margin-left: auto
-}
-
-.circle {
-    width: 60px;
-    height: 18px;
-    background-position: 50% 50%;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.button-contact {
-    position: relative;
-    float: right;
-    padding: 18px;
-    font-size: 24px;
-    display: none;
-    cursor: pointer;
-    background-color: #072AC8;
-    color: #fff;
-    border: #fff;
-    outline: none;
-   
-}
-
-.hero-section {
-    padding-top: 0px;
-}
-
-.container-hero {
-    flex-direction: column;
-}
-
-.hero-content {
+header ul {
     display: flex;
-    max-width: 700px;
-    flex-direction: column;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+}
+
+header a {
+    color: #6b708d;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 1rem;
+}
+header a:hover{
+    color: #0082f3;
+    text-decoration: underline;
+}
+header li:nth-of-type(1) a{
+    color: #0082f3;
+}
+
+/* Final Menu navegacion */
+
+/* Hero Section */
+/* Apuntamos mediante id para ver algo diferente :) */
+#hero-section{
+    display: flex;
     align-items: center;
-    align-self: center;
-}*/
+    flex-direction: row;
+    justify-content:space-evenly;
+}
 
 
+/* contenido del hero */
+#hero-section div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+#hero-section h1{
+    margin-bottom: 1rem;
+}
+#hero-section p{
+    margin-bottom: 2rem;
+}
+
+#hero-section a:nth-child(1){
+    margin-right: 2rem;
+}
+
+
+/* imagenes del hero */
+#hero-section div:nth-child(2){
+    position: relative;
+}
+
+#hero-section div img:nth-child(odd){
+    position: absolute;
+    width: 350px;
+}
+#hero-section div img:nth-child(even){
+    height: 600px;
+}
+#hero-section div img:nth-child(1){
+   top: 0;
+   left: -20%;
+   right: auto;
+   bottom: auto;
+}
+#hero-section div img:nth-child(3){
+    bottom: -20%;
+    left: auto;
+    right: -30%;
+    top: auto;
+}
+
+/* Final - Hero Section */
 .circle {
  margin: 40px;
 }
@@ -87,10 +148,7 @@
 .navegation ul li a {
     text-decoration: none;
     font-size: 1em;
-    color: #6C718B;
-    display: flex;
-    flex-wrap: wrap-reverse;
-    
+    color: #6C718B;  
 }
 
 .button-contact {
@@ -106,6 +164,7 @@
 
 .hero-section{
     margin: 50px 50px;
+    
 }
 
 .hero-content {
@@ -172,6 +231,32 @@
 .client-logo {
     display: inline;
     padding: 20px 20px;
-    margin: 0 0 0 150px;
-   align-items: center;
+    margin: 0 0 0 150px;  
+}
+
+#section-recent-projects h2 {
+  font-size: 2.5rem;
+}
+
+#collection-projects-grid {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+}
+
+.project-title {
+    text-align: left;
+}
+
+.project-img img {
+    width: 350px;
+}
+
+.client-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #292E47;
 }
