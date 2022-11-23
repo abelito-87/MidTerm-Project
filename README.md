@@ -15,3 +15,7 @@
 - Terminar el archivo HTML.
 - Añadir todas las imágenes.
 - Empezar archivo CSS.
+
+23-11-2022
+
+- Seguir con el archivo CSS.
