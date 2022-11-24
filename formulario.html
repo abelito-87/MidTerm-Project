@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulario</title>
+  </head>
+  <link rel="stylesheet" href="./formulario.css" />
+  <body>
+    <header>
+      <img
+        src="../MidTerm-Project/images/logos-20221121T165253Z-001/logos/circle.svg"
+        alt="circle"
+      />
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Projects</a></li>
+          <li><a href="">Services</a></li>
+        </ul>
+      </nav>
+      <a href="" class="btn--general">Contact Us</a>
+    </header>
+    <section id="section-formulario">
+      <h1>Contact us</h1>
+      <div id="box-formulario">
+        <form class="name" action="" method="get">
+          <label for="name">Full Name *</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+          />
+        </form>
+        <form class="email" action="">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your full name" />
+        </form>
+        <form class="phone" action="">
+          <label for="phone">Phone</label>
+          <input type="number" id="phone" placeholder="Enter your phone" />
+        </form>
+        <form class="message" action="">
+          <label for="comment">Message *</label>
+          <textarea
+            id="comment"
+            name="comment"
+            rows="4"
+            cols="33"
+            placeholder="Write your message here"
+          ></textarea>
+        </form>
+        <input
+          type="submit"
+          value="Submit"
+          data-wait="Please Wait"
+          class="btn--general"
+        />
+      </div>
+    </section>
+    <footer>
+      <div id="section-footer">
+        <div class="container-footer">
+          <div class="footer-content">
+            <div class="logo-content">
+              <img
+                src="../MidTerm-Project/images/logos-20221121T165253Z-001/logos/circle.svg"
+                alt="circle"
+              />
+            </div>
+            <div class="content-adress">
+              2972 Westheimer Rd. Santa Ana, Illinois 85486
+            </div>
+          </div>
+          <div class="footer-links">
+            <a href="#">Team</a>
+            <a href="#">Services</a>
+            <a href="#">About Us</a>
+            <a href="#">Press</a>
+            <a href="#">Projects</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <a class="web-flow" href="https://webflow.com/?utm_campaign=brandjs"></a>
+    </footer>
+  </body>
+</html>
