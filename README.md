@@ -19,3 +19,7 @@
 23-11-2022
 
 - Seguir con el archivo CSS.
+
+24-11-2022
+
+- Seguir con el archivo CSS.
