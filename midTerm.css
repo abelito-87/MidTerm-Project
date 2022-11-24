@@ -326,6 +326,12 @@ header li:nth-of-type(1) a{
 
 /*final section-questions*/
 
+/*inicio footer*/
+
+.content-adress {
+    margin-bottom: 20px;
+}
+
 .footer-links {
     display: grid;
     grid-auto-columns: 1fr;
@@ -333,5 +339,6 @@ header li:nth-of-type(1) a{
     grid-row-gap: 16px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
+    margin-bottom: 70px;
 }
 
