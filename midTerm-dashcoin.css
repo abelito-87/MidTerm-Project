@@ -73,25 +73,25 @@ header li:nth-of-type(1) a{
 
 /*inicio section-simplify*/
 
-#simplify h1 {
+#dashcoin h1 {
     font-size: 2rem;
 }
 
-#simplify h3 {
+#dashcoin h3 {
     color: #6b708d;
 }
 
-#simplify p {
+#dashcoin p {
      
      
 }
 
-#simplify img {
+#dashcoin img {
     width: 1200px;
     height: 400px;
 }
 
-.p-simplify {
+.p-dashcoin {
     text-align: left;
     letter-spacing: 0.5px;
     
