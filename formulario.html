@@ -7,6 +7,9 @@
     <title>formulario</title>
   </head>
   <link rel="stylesheet" href="./formulario.css" />
+  <script src="./midTerm.js">
+  
+  </script>
   <body>
     <header>
       <img
@@ -25,7 +28,7 @@
     <section id="section-formulario">
       <h1>Contact us</h1>
       <div id="box-formulario">
-        <form id="form-contact" action="" method="get">
+        <form id="form-contact">
           <label for="name">Full Name *</label><br />
           <input
             type="text"
@@ -33,7 +36,7 @@
             class="name"
             name="name"
             placeholder="Enter your full name"
-          /><br />
+          /><br/>
           <div class="divContact">
             <label for="email">Email</label><br />
             <input type="email" id="email" placeholder="Enter your email" />
@@ -52,14 +55,13 @@
             placeholder="Write your message here"
           ></textarea>
           <br />
-          <input
-            id="btn-submit"
-            type="submit"
-            value="Submit"
-            data-wait="Please Wait"
-            class="btn--general"
-          />
         </form>
+        <input
+        id="btn-submit"
+        type="submit"
+        value="Submit"
+        class="btn--general"
+      />
       </div>
     </section>
     <footer>
