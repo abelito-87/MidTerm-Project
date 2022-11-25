@@ -23,3 +23,9 @@
 24-11-2022
 
 - Seguir con el archivo CSS.
+
+25-11-2022
+
+- Falta terminar solo una de las webs.
+
+- Empezar con Responsive design.
